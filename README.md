@@ -1,4 +1,4 @@
-#  Ola Bookings Analysis
+#  Ola Ride Bookings Analysis
 
 This project presents an exploratory data analysis and business insight generation based on ride booking data from Ola, one of India’s largest mobility platforms.
 
@@ -8,50 +8,40 @@ The goal of the project is to answer key business questions using SQL and visual
 
 ##  Overview
 
-- Cleaned and prepared raw ride data including pickup locations, drop points, distances, fares, and payment modes.
+- Cleaned and prepared raw ride data, including pickup locations, drop points, distances, fares, and payment modes.
 - Wrote SQL queries to extract, filter, and group insights around booking behavior.
 - Visualized results via Excel and/or Power BI dashboard for better decision-making.
 
 ---
 
-## 🧾 Dataset
+##  Dataset
 
 You can download the sample dataset used for this analysis from the link below:
 
-📥 [Download ola_bookings.csv](https://github.com/YOUR_USERNAME/Ola-Dashboard/raw/main/data/ola_bookings_sample.csv)
-
-### Columns in the dataset:
-- `ride_id` – Unique ID of the ride  
-- `customer_id` – Anonymized user ID  
-- `pickup_location` – Area where the customer was picked up  
-- `drop_location` – Destination area  
-- `ride_type` – Ola Micro, Mini, Prime, Auto etc.  
-- `distance_km` – Trip distance  
-- `fare_amount` – Total fare  
-- `payment_type` – Cash / Wallet / Card / UPI  
-- `ride_date` – Date and time of booking  
-
+ [Download ola_bookings.csv](https://github.com/YOUR_USERNAME/Ola-Dashboard/raw/main/data/ola_bookings_sample.csv) 
 
 ---
 
-## 📊 SQL Analysis Questions
+##  SQL Analysis Questions
 
 Here are some of the business questions explored:
 
-1. What is the average fare by ride type?
-2. Which areas have the highest pickup and drop density?
-3. What is the most preferred payment method?
-4. How does distance correlate with fare?
-5. Which days and times see the highest number of bookings?
-6. What are the top 5 most profitable routes?
-7. What percentage of rides are short (< 5 km), medium (5-15 km), and long (>15 km)?
-8. What's the cancellation or no-show rate? *(if data available)*
+1. Retrieve all successful bookings
+2. Find the average ride distance for each vehicle type
+3. Get the total number of cancelled rides by customers
+4. List the top 5 customers who booked the highest number of rides
+5. Get the number of rides cancelled by drivers due to personal and car-related issues
+6. Find the maximum and minimum driver ratings for Prime Sedan bookings
+7. Retrieve all rides where payment was made using UPI
+8. Find the average customer rating per vehicle type
+9. Calculate the total booking value of rides completed successfully
+10. List all incomplete rides along with the reason
 
 ---
 
 ##  Key Insights
 
-- **Prime Sedan** has the highest volume of bookings but **Ola Prime** contributes the most revenue per ride.
+- **Prime Sedan** has the highest volume of bookings but **Prime SUV** contributes the most revenue per ride.
 - The **average ride distance** falls between **20–25 km**, indicating a mid-range intercity travel pattern.
 - **Cash** remains the most used payment method with over **19 million** transactions, followed by **UPI** with **14 million**.
 - Around **30% of customers cancel rides** due to **drivers not reaching** the pickup location on time or at all.
@@ -78,10 +68,4 @@ Further analysis can include:
 - **SQL** (MySQL)
 - **Excel** (VLOOKUP, Data Cleaning)
 - **Power BI** (for interactive dashboards)
-
----
-
-## 📸 Dashboard Preview
-
-> *(Insert a screenshot of your dashboard here if applicable)*
 
