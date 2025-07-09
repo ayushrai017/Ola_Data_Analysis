@@ -1,6 +1,6 @@
 #  Ola Ride Bookings Analysis
 
-This project presents an exploratory data analysis and business insight generation based on ride booking data from Ola, one of India’s largest mobility platforms.
+This project explores a rich dataset of over 100,000+ ride bookings and presents an exploratory data analysis along with business insights derived from Ola — one of India’s largest mobility platforms.
 
 The goal of the project is to answer key business questions using SQL and visualize trends through dashboards (Power BI / Excel), ultimately helping stakeholders improve operational efficiency, driver availability, and customer experience.
 
@@ -41,12 +41,12 @@ Here are some of the business questions explored:
 
 ##  Key Insights
 
-- **Prime Sedan** has the highest volume of bookings but **Prime SUV** contributes the most revenue per ride.
+- **Prime Sedan** has the highest volume of bookings but **Bike** contributes the most revenue per ride.
 - The **average ride distance** falls between **20–25 km**, indicating a mid-range intercity travel pattern.
-- **Cash** remains the most used payment method with over **19 million** transactions, followed by **UPI** with **14 million**.
+- **UPI** remains the most used payment method with over **$20 million** transactions, followed by **Cash** with **$12 million**.
 - Around **30% of customers cancel rides** due to **drivers not reaching** the pickup location on time or at all.
 - **Driver-side cancellations** primarily stem from **car unavailability** and **personal issues**, suggesting operational gaps in readiness.
-- **Ola Prime Plus** is the best-rated ride type with an average **customer rating of 4.01**, reflecting high satisfaction in premium segments.
+- **Prime Sedan** is the best-rated ride type with an average **customer rating of 4.02**, reflecting high satisfaction in premium segments.
 
 
 ---
